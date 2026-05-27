@@ -14,7 +14,7 @@ for (const dir of [dbDir, storageDir]) {
 }
 
 try {
-  execSync("npx prisma db push --skip-generate", {
+  execSync("npx prisma db push", {
     cwd: root,
     stdio: "inherit",
     env: { ...process.env },
