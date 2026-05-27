@@ -1,0 +1,22 @@
+# Dependencies & build output
+everya/node_modules/
+everya/.next/
+everya/out/
+everya/build/
+
+# Environment & secrets
+everya/.env
+everya/.env*.local
+
+# Database & uploads
+everya/db/*.db
+everya/db/*.db-journal
+everya/prisma/db/
+everya/storage/uploads/*
+!everya/storage/uploads/.gitkeep
+
+# Misc
+everya/.DS_Store
+everya/*.tsbuildinfo
+everya/next-env.d.ts
+everya/npm-debug.log*
